@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{DAB73CC6-6598-28B5-CAC1-69B69FF3DDC4}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Spawn.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Firework.cs" Line="1" Column="1" />
+      <File FileName="Assets/SFramework/Framework/Utils/FPS/WeponConrtroller.cs" Line="20" Column="39" />
+      <File FileName="Assets/SFramework/Framework/Utils/FPS/Bullet.cs" Line="7" Column="25" />
+      <File FileName="Assets/SFramework/Framework/Utils/FPS/Gun.cs" Line="11" Column="50" />
+      <File FileName="Assets/Scripts/ExplodeBullet.cs" Line="28" Column="12" />
+      <File FileName="Assets/Scripts/Pistal.cs" Line="10" Column="1" />
+      <File FileName="Assets/Rotate.cs" Line="13" Column="1" />
+      <File FileName="Assets/Spawn.cs" Line="21" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FPS_All" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True" />
+              <Node name="SFramework" expanded="True">
+                <Node name="Framework" expanded="True">
+                  <Node name="Utils" expanded="True">
+                    <Node name="FPS" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Spawn.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="cd2fbe67-dce4-47e8-80bf-166bf00e5880" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

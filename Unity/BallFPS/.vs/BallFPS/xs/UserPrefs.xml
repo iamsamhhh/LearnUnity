@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{6DC7C8B3-8DFD-37A9-B69E-6A873EDF0621}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/OnClickManager.cs">
+    <Files>
+      <File FileName="Assets/Scripts/OnRun.cs" Line="20" Column="51" />
+      <File FileName="Assets/Scripts/OnClickManager.cs" Line="17" Column="38" />
+      <File FileName="Assets/SFrameWork/12.消息机制/EventType.cs" Line="9" Column="24" />
+      <File FileName="Assets/Scripts/MenuMgr.cs" Line="21" Column="1" />
+      <File FileName="Assets/Scripts/PlayerLook.cs" Line="29" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="cef1951f-be78-43cc-879a-1b16d94b724f" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
