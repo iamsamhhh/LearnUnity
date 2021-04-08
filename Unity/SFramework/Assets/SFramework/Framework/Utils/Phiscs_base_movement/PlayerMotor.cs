@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace SFramework.FPS
+namespace SFramework.Utils.PhisicsBaseMovement
 {
     [RequireComponent(typeof(Rigidbody))]
     public class PlayerMotor : MonoBehaviour

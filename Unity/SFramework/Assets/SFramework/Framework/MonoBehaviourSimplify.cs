@@ -8,7 +8,23 @@ namespace SFramework
     public partial class MonoBehaviourSimplify : MonoBehaviour
     {
         
+        #region Functions
+        
+        public void Delay(float time, Callback onEnd){
+            StartCoroutine(DelayCoroutine(time, onEnd));
+        }
+
+        private IEnumerator DelayCoroutine(float time, Callback action){
+            yield return new WaitForSeconds(time);
+
+            action();
+        }
+
+        #endregion
+
+
         #region msgCenter
+
         #region Add event
 
         public static void AddEvent(string eventType, Callback callback)
@@ -115,6 +131,7 @@ namespace SFramework
         }
 
         #endregion
+
         #endregion
 
 

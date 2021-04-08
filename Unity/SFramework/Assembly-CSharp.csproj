@@ -39,17 +39,18 @@
      <Compile Include="Assets\SFramework\Framework\Msg\MsgCenter.cs" />
      <Compile Include="Assets\SFramework\Framework\Utils\Phiscs_base_movement\PlayerController.cs" />
      <Compile Include="Assets\SFramework\Framework\Base\Singleton\SingletonBase.cs" />
-     <Compile Include="Assets\SFramework\Framework\Utils\WeponConrtroller.cs" />
      <Compile Include="Assets\SFramework\Framework\Base\Singleton\MonoSingletonBase.cs" />
-     <Compile Include="Assets\SFramework\Framework\Utils\Gun.cs" />
      <Compile Include="Assets\SFramework\Framework\Utils\Phiscs_base_movement\PlayerMotor.cs" />
      <Compile Include="Assets\SFramework\Framework\Utils\Phiscs_base_movement\PlayerRotate.cs" />
      <Compile Include="Assets\SFramework\Framework\MonoBehaviourSimplify.cs" />
-     <Compile Include="Assets\SFramework\Framework\Msg\Exporter.cs" />
      <Compile Include="Assets\SFramework\Framework\Msg\CallBack.cs" />
      <Compile Include="Assets\SFramework\Framework\Base\Singleton\MonoSingletonBaseAuto.cs" />
      <Compile Include="Assets\SFramework\Framework\Managers\GUIMgr.cs" />
-     <Compile Include="Assets\SFramework\Framework\Utils\Bullet.cs" />
+     <Compile Include="Assets\SFramework\Framework\Base\RunnerBase\Runner.cs" />
+     <Compile Include="Assets\SFramework\Tests\GUIMgrTest.cs" />
+     <Compile Include="Assets\SFramework\Framework\Utils\GunSys\Bullet.cs" />
+     <Compile Include="Assets\SFramework\Framework\Utils\GunSys\Gun.cs" />
+     <Compile Include="Assets\SFramework\Framework\Utils\GunSys\WeponConrtroller.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/2020.3.2f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
