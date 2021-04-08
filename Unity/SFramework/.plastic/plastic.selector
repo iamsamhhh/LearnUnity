@@ -1,0 +1,4 @@
+repository "SFramework@ssl://iamsamhhh@sh03-plasticscm.unity.cn:8787"
+  path "/"
+    smartbranch "/main/sc_samchen" changeset "8"      
+     
