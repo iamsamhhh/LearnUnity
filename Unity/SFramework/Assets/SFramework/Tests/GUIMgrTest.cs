@@ -6,10 +6,15 @@ using SFramework;
 public class GUIMgrTest : MonoBehaviourSimplify
 {
     const string panelName = "Panel";
-    private void Start() {
-            
-        GUIMgr.Instance.AddPanel(panelName, ELayer.Bottom);
-        
-        Delay(3, () => GUIMgr.Instance.RemovePanel(panelName) );
+    private void Awake() {
+        OnStart(()=>{
+            GUIMgr.Instance.Set(new Vector2(3840, 2160), 1);
+            GUIMgr.Instance.AddPanel(panelName, ELayer.Bottom);
+            GUIMgr.Instance.OnClick(panelName, "Button", () => GUIMgr.Instance.RemovePanel(panelName) );
+        });
+    }
+
+    private void OnDestroy() {
+        GUIMgr.Instance.RemovePanel(panelName);
     }
 }

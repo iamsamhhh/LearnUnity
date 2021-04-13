@@ -8,6 +8,25 @@ namespace SFramework
     public partial class MonoBehaviourSimplify : MonoBehaviour
     {
         
+        #region Runner
+
+        internal void OnUpdate(Callback update) {
+            Runner.instance.SFUpdate(update);
+        }
+
+        internal void OnStart(Callback start){
+            Runner.instance.SFStart(start);
+        }
+
+        internal void OnAwake(Callback awake){
+            Runner.instance.SFAwake(awake);
+        }
+
+         
+
+        #endregion
+
+
         #region Functions
         
         public void Delay(float time, Callback onEnd){

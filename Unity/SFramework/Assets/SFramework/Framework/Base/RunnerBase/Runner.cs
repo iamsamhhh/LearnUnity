@@ -1,33 +1,40 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using SFramework;
 
-public class Runner : MonoSingletonBaseAuto<Runner>{
-    
-    private Callback _update, _awake, _start;
+namespace SFramework{
+    public class Runner : MonoSingletonBaseAuto<Runner>{
+        
+        private Callback _update, _start, _awake;
+        private bool started = false, awaken = false;
 
-    public void OnUpdate(Callback update) {
-        _update += update;
-    }
+        public void SFUpdate(Callback update) {
+            _update += update;
+        }
 
-    public void OnAwake(Callback awake){
-        _awake += awake;
-    }
+        public void SFStart(Callback start){
+            _start += start;
+        }
 
-    public void OnStart(Callback start){
-        _start = start;
-    }
+        public void SFAwake(Callback awake){
+            _awake += awake;
+        }
 
-    private void Awake() {
-        _awake();
-    }
+        private void Update() {
 
-    private void Start() {
-        _start();
-    }
+            if (!started && _start != null){
+                _start();
+                started = true;
+            }
 
-    private void Update() {
-        _update();
+            if (!awaken && _awake != null){
+                _awake();
+                awaken = true;
+            }
+
+            if (_update == null) return;
+
+            _update();
+        }
     }
 }
