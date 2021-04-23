@@ -12,6 +12,10 @@ namespace SFramework{
             _update += update;
         }
 
+        public void RemoveUpdate(Callback needToRemove){
+            _update -= needToRemove;
+        }
+
         public void SFStart(Callback start){
             _start += start;
         }

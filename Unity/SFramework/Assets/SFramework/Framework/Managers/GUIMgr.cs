@@ -15,7 +15,13 @@ namespace SFramework{
         public GameObject canvas{
             get{
                 if (_canvas == null){
-                    _canvas = GameObject.Instantiate(Resources.Load<GameObject>("UIRoot")).transform.Find("Canvas").gameObject;
+                    var h = GameObject.Find("UIRoot");
+                    if (h != null){
+                        _canvas = h.transform.Find("Canvas").gameObject;
+                    }
+                    else{
+                        _canvas = GameObject.Instantiate(Resources.Load<GameObject>("UIRoot")).transform.Find("Canvas").gameObject;
+                    }
                     Init();
                 }
                 return _canvas;
@@ -40,9 +46,10 @@ namespace SFramework{
         }
 
         public GameObject AddPanel(string name, ELayer layer){
+            
+            if (_canvas == null) canvas.SetActive(true);
             var go = GameObject.Instantiate(Resources.Load<GameObject>(name));
             if (go == null) return null;
-            if (_canvas == null) canvas.SetActive(true);
             go.name = name;
             panelDict.Add(name, go);
 
@@ -70,6 +77,15 @@ namespace SFramework{
             return go;
         }
 
+        public GameObject RemovePanel(string name, Callback afterRemove){
+            if (!panelDict.ContainsKey(name)) return null;
+            var temp = panelDict[name];
+            panelDict.Remove(name);
+            GameObject.Destroy(temp);
+            afterRemove();
+            return temp;
+        }
+
         public GameObject RemovePanel(string name){
             if (!panelDict.ContainsKey(name)) return null;
             var temp = panelDict[name];
@@ -84,6 +100,7 @@ namespace SFramework{
 
         public bool OnClick(string panelName, string btnName, UnityEngine.Events.UnityAction action){
             if (!panelDict.ContainsKey(panelName)) return false;
+            if (panelName == btnName) return false;
             Button btn = panelDict[panelName].transform.Find(btnName).GetComponent<Button>();
 
             if (btn == null){
