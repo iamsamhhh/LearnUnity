@@ -8,8 +8,9 @@ public class GUIMgrTest : MonoBehaviourSimplify
 {
     [SerializeField]
     GameObject bullet;
-    GUIMgr guiMgr = GUIMgr.Instance;
+    GUIMgr guiMgr = GUIMgr.instance;
     const string FIRE_PANEL_NAME = "fire panel";
+    const string NEXTLEVEL_BTN_NAME = "next level";
     const string FIRE_BTN_NAME = "Fire btn";
     const string OPEN_POOL_BTN_NAME = "Openpool";
     const string OPEN_SAVE_BTN_NAME = "OpenMenu";
@@ -44,6 +45,14 @@ public class GUIMgrTest : MonoBehaviourSimplify
 
             Debug.LogErrorFormat("Fail to add OnClick for btn {0}", OPEN_POOL_BTN_NAME);
         }
+
+        if(!guiMgr.OnClick(MENU_NAME, NEXTLEVEL_BTN_NAME, ()=>{
+            LevelMgr.instance.LoadNext();
+        })){
+
+            Debug.LogErrorFormat("Fail to add OnClick for btn {0}", NEXTLEVEL_BTN_NAME);
+        }
+
     }
 
     private void OnDestroy() {
@@ -58,14 +67,14 @@ public class GUIMgrTest : MonoBehaviourSimplify
         inptField = guiMgr.AddPanel(PANEL_NAME, ELayer.Top).transform.GetComponentInChildren<InputField>();
 
 
-        inptField.text = SaveMgr.Instance.LoadString(SAVE_FILE_NAME);
+        inptField.text = SaveMgr.instance.LoadString(SAVE_FILE_NAME);
 
         // save action
         guiMgr.OnClick(PANEL_NAME, SAVE_BTN_NAME, ()=>{
 
             Debug.Log("into save");
 
-            SaveMgr.Instance.Save(inptField.text, SAVE_FILE_NAME); 
+            SaveMgr.instance.Save(inptField.text, SAVE_FILE_NAME); 
 
         });
 

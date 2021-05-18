@@ -12,1541 +12,170 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64217
+55446
 Successfully changed project path to: /Users/chenyuxuansam/Desktop/Repository/learnUnity/Unity/SFramework
 /Users/chenyuxuansam/Desktop/Repository/learnUnity/Unity/SFramework
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 23.42 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 23.15 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1c1 (5fdc1e83a2fd)
 [Subsystems] Discovering subsystems at path /Applications/2020.3.2f1c1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/chenyuxuansam/Desktop/Repository/learnUnity/Unity/SFramework/Assets
 GfxDevice: creating device client; threaded=0
-2021-04-22 20:03:40.025 Unity[60696:2424246] (null) preferred device: Apple M1 (high power)
-2021-04-22 20:03:40.025 Unity[60696:2424246] Metal devices available: 1
-2021-04-22 20:03:40.025 Unity[60696:2424246] 0: Apple M1 (high power)
-2021-04-22 20:03:40.025 Unity[60696:2424246] Using device Apple M1 (high power)
+2021-05-18 17:51:54.924 Unity[42392:1968797] (null) preferred device: Apple M1 (high power)
+2021-05-18 17:51:54.924 Unity[42392:1968797] Metal devices available: 1
+2021-05-18 17:51:54.924 Unity[42392:1968797] 0: Apple M1 (high power)
+2021-05-18 17:51:54.925 Unity[42392:1968797] Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Initialize mono
 Mono path[0] = '/Applications/2020.3.2f1c1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/2020.3.2f1c1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/2020.3.2f1c1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56392
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/2020.3.2f1c1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/2020.3.2f1c1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/2020.3.2f1c1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000572 seconds.
+Registered in 0.000567 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 23.95 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 24.21 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.747 seconds
+- Completed reload, in  1.666 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001106 seconds.
+Registered in 0.001017 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.288 seconds
+- Completed reload, in  2.099 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/2020.3.2f1c1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1392 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.5 MB.
-System memory in use after: 136.6 MB.
+Unloading 1399 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.1 MB.
+System memory in use after: 137.1 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1830.
-Total: 1.762875 ms (FindLiveObjects: 0.206833 ms CreateObjectMapping: 0.030083 ms MarkObjects: 1.428250 ms  DeleteObjects: 0.095834 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1838.
+Total: 1.414000 ms (FindLiveObjects: 0.115334 ms CreateObjectMapping: 0.027500 ms MarkObjects: 1.195833 ms  DeleteObjects: 0.074667 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/SFramework/Tests/GUIMgrTest.cs
-  artifactKey: Guid(884ea916042594fc7ba042c4f5449820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Tests/GUIMgrTest.cs using Guid(884ea916042594fc7ba042c4f5449820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f420c5dd15513b7adf06aad5aa25f0') in 0.237737 seconds
-  Import took 0.239925 seconds .
+  path: Assets/SFramework/Resources/Data/Text.sfdat
+  artifactKey: Guid(aa9ebbf9479464e77819535511783e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFramework/Resources/Data/Text.sfdat using Guid(aa9ebbf9479464e77819535511783e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c9b29bbe526f4a1dc45ef2d90a3cde') in 0.387656 seconds
+  Import took 0.389637 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/SFramework/Tests/Move.cs
-  artifactKey: Guid(eede99d4f6248481f9f9420d4775b16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Tests/Move.cs using Guid(eede99d4f6248481f9f9420d4775b16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebddeb4bb0c38aa7ad10ef39aade4d80') in 0.002926 seconds
-  Import took 0.004629 seconds .
+  Time since last request: 0.002202 seconds.
+  path: Assets/SFramework/Framework/Utils/WeaponSys/Base/BulletBase.cs
+  artifactKey: Guid(a00f482d5f515422ea9d1e30da7e3ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFramework/Framework/Utils/WeaponSys/Base/BulletBase.cs using Guid(a00f482d5f515422ea9d1e30da7e3ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5439836df1a7af6003a76e9885848c2') in 0.139622 seconds
+  Import took 0.141221 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001165 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.311 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.9 MB.
-System memory in use after: 141.0 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1833.
-Total: 1.277709 ms (FindLiveObjects: 0.097250 ms CreateObjectMapping: 0.027417 ms MarkObjects: 1.099125 ms  DeleteObjects: 0.052917 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 418.035230 seconds.
-  path: Assets/SFramework/Tests/GUIMgrTest.cs
-  artifactKey: Guid(884ea916042594fc7ba042c4f5449820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Tests/GUIMgrTest.cs using Guid(884ea916042594fc7ba042c4f5449820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5175aa59a90ac594792814b9586cf427') in 0.005541 seconds
-  Import took 0.007313 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001146 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.242 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.1 MB.
-System memory in use after: 141.2 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1836.
-Total: 1.356625 ms (FindLiveObjects: 0.131583 ms CreateObjectMapping: 0.028250 ms MarkObjects: 1.143167 ms  DeleteObjects: 0.052958 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001150 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.272 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.3 MB.
-System memory in use after: 141.4 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1839.
-Total: 1.322166 ms (FindLiveObjects: 0.105417 ms CreateObjectMapping: 0.028459 ms MarkObjects: 1.136750 ms  DeleteObjects: 0.050625 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001118 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.265 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.5 MB.
-System memory in use after: 141.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1842.
-Total: 1.328833 ms (FindLiveObjects: 0.105208 ms CreateObjectMapping: 0.028042 ms MarkObjects: 1.144792 ms  DeleteObjects: 0.049375 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 275.503242 seconds.
-  path: Assets/SFramework/Tests/Move.cs
-  artifactKey: Guid(eede99d4f6248481f9f9420d4775b16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Tests/Move.cs using Guid(eede99d4f6248481f9f9420d4775b16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e9b5afe85f95c1e88a2bb3e17b67a3') in 0.004551 seconds
-  Import took 0.006380 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.268384 seconds.
-  path: Assets/SFramework/Resources/blt.prefab
-  artifactKey: Guid(7dca50594447e4a76a2fccfa14396be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/blt.prefab using Guid(7dca50594447e4a76a2fccfa14396be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98915e58b7202e290cc7fa8b4fcdcf62') in 0.797945 seconds
-  Import took 0.800043 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.233487 seconds.
-  path: Assets/SFramework/Tests/GUIMgrTest.cs
-  artifactKey: Guid(884ea916042594fc7ba042c4f5449820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Tests/GUIMgrTest.cs using Guid(884ea916042594fc7ba042c4f5449820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8f7046280e6bbe0e9fe527a2e1ffc7') in 0.002137 seconds
-  Import took 0.004218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013232 seconds.
-  path: Assets/SFramework/Tests/GUIMgrTest.cs
-  artifactKey: Guid(884ea916042594fc7ba042c4f5449820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Tests/GUIMgrTest.cs using Guid(884ea916042594fc7ba042c4f5449820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8f7046280e6bbe0e9fe527a2e1ffc7') in 0.002099 seconds
-  Import took 0.004246 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001110 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.306 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.5 MB.
-System memory in use after: 149.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1853.
-Total: 1.311583 ms (FindLiveObjects: 0.103791 ms CreateObjectMapping: 0.028250 ms MarkObjects: 1.123000 ms  DeleteObjects: 0.055375 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 664.790600 seconds.
-  path: Assets/SFramework/Tests/GUIMgrTest.cs
-  artifactKey: Guid(884ea916042594fc7ba042c4f5449820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Tests/GUIMgrTest.cs using Guid(884ea916042594fc7ba042c4f5449820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb94f1977a44b8772a2f9a432b92a5c') in 0.005738 seconds
-  Import took 0.007664 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012429 seconds.
-  path: Assets/SFramework/Tests/GUIMgrTest.cs
-  artifactKey: Guid(884ea916042594fc7ba042c4f5449820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Tests/GUIMgrTest.cs using Guid(884ea916042594fc7ba042c4f5449820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb94f1977a44b8772a2f9a432b92a5c') in 0.002148 seconds
-  Import took 0.003989 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.974089 seconds.
-  path: Assets/SFramework/Resources/fire panel.prefab
-  artifactKey: Guid(2f0f250cd2e094e219d3685b90840ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/fire panel.prefab using Guid(2f0f250cd2e094e219d3685b90840ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f142c7f31ebbe1f3872d9ccfdc71b1ab') in 0.080829 seconds
-  Import took 0.083208 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015773 seconds.
-  path: Assets/SFramework/Resources/fire panel.prefab
-  artifactKey: Guid(2f0f250cd2e094e219d3685b90840ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/fire panel.prefab using Guid(2f0f250cd2e094e219d3685b90840ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f142c7f31ebbe1f3872d9ccfdc71b1ab') in 0.005042 seconds
-  Import took 0.006877 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.314435 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.928329 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.930243 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008606 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002030 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004440 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.038247 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000750 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.002636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.055783 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000797 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.002841 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.097387 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001369 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.003730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.079789 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001061 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.003743 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.089249 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001210 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.104234 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001163 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004224 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.095900 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001219 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.091883 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001229 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004317 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.104337 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000888 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.003153 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.157332 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001644 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004235 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.118324 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000791 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.002776 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.095425 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000707 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.002591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.104629 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000955 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.003243 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.116434 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001885 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005602 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.079487 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001220 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.086178 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001155 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.003366 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.106466 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000858 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004209 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.088200 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000842 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.002901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.097059 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000754 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.002717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.098178 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000988 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.002937 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.097612 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001493 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.098295 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000746 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.002710 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.093531 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001967 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005584 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.097667 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001643 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.091368 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001593 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005829 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.096649 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001487 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.092411 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001579 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005253 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.094206 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001665 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005967 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.098562 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001553 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.087244 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001640 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005286 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.094161 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001317 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004674 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.095963 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001641 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005096 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.095321 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001595 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005042 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.094157 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001532 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004943 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.099900 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001619 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004973 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.089187 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001588 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004877 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.096555 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001609 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005153 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.094247 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001482 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005102 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.097558 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001512 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.091534 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001622 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004802 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.095540 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001551 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004836 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.095728 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001551 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004980 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.095983 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001453 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005072 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.098433 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001469 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004711 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.090514 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001573 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.094666 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001571 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.095459 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001425 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004979 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.099205 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001541 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004815 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.089268 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001234 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004444 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.096482 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001303 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004683 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.095132 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001577 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005006 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.096425 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001561 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.093581 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001582 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004923 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.094127 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001559 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004857 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.096537 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001539 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.095276 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001496 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.095106 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001579 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004976 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.095531 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001596 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004966 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.091434 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001572 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004766 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.102203 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001193 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004256 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.090358 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001513 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004769 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.096791 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001563 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005004 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.099370 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001531 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004761 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.088906 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001578 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.096138 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001456 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005034 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.094832 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001604 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005426 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.095663 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001277 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004602 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.098006 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001371 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004473 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.089376 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001110 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004256 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.096265 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001204 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.093612 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000964 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.003654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.093401 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000694 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.002498 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.099960 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000697 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.002493 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.094115 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000699 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.002479 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.098339 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000700 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.002506 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.097990 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000701 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.002495 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.096237 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000747 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.002829 seconds .
-
-========================================================================
 Received Import Request.
-  Time since last request: 0.100615 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000832 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
+  Time since last request: 0.001149 seconds.
+  path: Assets/SFramework/Tests/Pistal.cs
+  artifactKey: Guid(4f209ca681b2a4e6481be35416aa0493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFramework/Tests/Pistal.cs using Guid(4f209ca681b2a4e6481be35416aa0493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba22150570af5e58e45bb37ac11dc4e') in 0.001658 seconds
   Import took 0.003025 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.097361 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001045 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.003770 seconds .
+  Time since last request: 0.002942 seconds.
+  path: Assets/SFramework/Tests/GUIMgrTest.cs
+  artifactKey: Guid(884ea916042594fc7ba042c4f5449820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFramework/Tests/GUIMgrTest.cs using Guid(884ea916042594fc7ba042c4f5449820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96864dd9681bc6f6d2209c8d4f1d6b32') in 0.001992 seconds
+  Import took 0.003525 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.097953 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001180 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004222 seconds .
+  Time since last request: 0.005318 seconds.
+  path: Assets/SFramework/Framework/Utils/Editor/Exporter.cs
+  artifactKey: Guid(b51d4d88044884d00b33670ae1780a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFramework/Framework/Utils/Editor/Exporter.cs using Guid(b51d4d88044884d00b33670ae1780a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20bf19f3256177b1965d1bfb91c927c5') in 0.001832 seconds
+  Import took 0.003446 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.096175 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001283 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004698 seconds .
+  Time since last request: 0.001807 seconds.
+  path: Assets/SFramework/Framework/Managers/LevelMgr.cs
+  artifactKey: Guid(96efcca2a73e449da8941cee987cea48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFramework/Framework/Managers/LevelMgr.cs using Guid(96efcca2a73e449da8941cee987cea48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414dbf51171789a30cf88ebaa7c385c2') in 0.001888 seconds
+  Import took 0.003401 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.099159 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001574 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004785 seconds .
+  Time since last request: 0.000861 seconds.
+  path: Assets/SFramework/Tests/WeaponManager.cs
+  artifactKey: Guid(8bfbdee8b503a41749819323f1a5c603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFramework/Tests/WeaponManager.cs using Guid(8bfbdee8b503a41749819323f1a5c603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5741b3c22de06b854f0cd6d3ce9ba6af') in 0.001881 seconds
+  Import took 0.003346 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.089758 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001145 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004067 seconds .
+  Time since last request: 0.002109 seconds.
+  path: Assets/SFramework/Framework/Utils/WeaponSys/WeaponSys.cs
+  artifactKey: Guid(513f32bdfb7bb41b4be94076d388d0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFramework/Framework/Utils/WeaponSys/WeaponSys.cs using Guid(513f32bdfb7bb41b4be94076d388d0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55225bee778714bfc8df25319b9c13d') in 0.001648 seconds
+  Import took 0.002987 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.098167 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001263 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004552 seconds .
+  Time since last request: 0.000793 seconds.
+  path: Assets/SFramework/Tests/NormalBullet.cs
+  artifactKey: Guid(1b32a994524ef4415bbf2d9e42d2c8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFramework/Tests/NormalBullet.cs using Guid(1b32a994524ef4415bbf2d9e42d2c8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef84da246583fcec1909758bc5d2a910') in 0.001710 seconds
+  Import took 0.003112 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.095496 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001349 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004916 seconds .
+  Time since last request: 0.002710 seconds.
+  path: Assets/SFramework/Framework/Base/RunnerBase/Runner.cs
+  artifactKey: Guid(138e7574766c44d4499808441e30cb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFramework/Framework/Base/RunnerBase/Runner.cs using Guid(138e7574766c44d4499808441e30cb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888572499ddb774f23d293776588d35d') in 0.001885 seconds
+  Import took 0.003294 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.095452 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001632 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005332 seconds .
+  Time since last request: 0.004221 seconds.
+  path: Assets/SFramework/Framework/Base/Singleton/SingletonBase.cs
+  artifactKey: Guid(23f6d1413243c4c55bd0cce8389f1313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFramework/Framework/Base/Singleton/SingletonBase.cs using Guid(23f6d1413243c4c55bd0cce8389f1313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67861a8bab919b9e726a56419eeac68b') in 0.001626 seconds
+  Import took 0.002952 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.095422 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001440 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005213 seconds .
+  Time since last request: 0.003385 seconds.
+  path: Assets/SFramework/Resources/UIRoot.prefab
+  artifactKey: Guid(a3715f8bbf83d4f85b29f079a28b23fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFramework/Resources/UIRoot.prefab using Guid(a3715f8bbf83d4f85b29f079a28b23fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84998f629f7d2959cef744e2248359a5') in 0.195132 seconds
+  Import took 0.196796 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.096445 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001847 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005268 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.089730 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001101 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.003936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.097935 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001512 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.095771 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001583 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005445 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.097352 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001720 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005039 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.090697 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001304 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004640 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.095688 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001374 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005011 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.096045 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001280 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.098858 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001289 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004623 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.090413 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001465 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004740 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.096309 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001473 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004809 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.094501 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001583 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005146 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.099349 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001566 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004894 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.088978 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001519 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004857 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.097182 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001611 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005342 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.095087 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001565 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005255 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.093744 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001539 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004918 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.094933 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001547 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004890 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.095353 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001558 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005148 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.102013 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001507 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004677 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.086018 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001704 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004850 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000516 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001044 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.003576 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.090717 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001178 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004253 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.097681 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001496 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004861 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.095443 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001555 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005085 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.107244 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001637 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004821 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000420 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001055 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.003540 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.075768 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001487 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004476 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.096075 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001561 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004877 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.097136 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001558 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005034 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.097962 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001471 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005002 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.089235 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001523 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004558 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.096618 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001483 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004842 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.095919 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001514 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004940 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.095394 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001474 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004966 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.098161 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001599 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004814 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.090661 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001581 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004910 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.096025 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001449 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005073 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.094860 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001532 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005042 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.098929 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001587 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004946 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.088986 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001214 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004293 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.097010 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001397 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.004822 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.096349 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001613 seconds
-  ERROR: Build asset version error: assets/sframework/resources/data/text.text in SourceAssetDB has modification time of '2021-04-22T12:03:31Z' while content on disk has modification time of '2021-04-22T12:26:23Z'
-  Import took 0.005224 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.106654 seconds.
-  path: Assets/SFramework/Resources/Data/Text.text
-  artifactKey: Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Resources/Data/Text.text using Guid(3b6ff8ff4e1db4f10b99f49cd141725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ccc3762c65e29da8be831f207a41c6') in 0.001320 seconds
-  Import took 0.003289 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001039 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.261 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 154.1 MB.
-System memory in use after: 154.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1858.
-Total: 1.308125 ms (FindLiveObjects: 0.100708 ms CreateObjectMapping: 0.028541 ms MarkObjects: 1.118209 ms  DeleteObjects: 0.059875 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 264.261805 seconds.
-  path: Assets/SFramework/Framework/Managers/SaveMgr.cs
-  artifactKey: Guid(3fab471c489c244eb975bf1d837d525e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Framework/Managers/SaveMgr.cs using Guid(3fab471c489c244eb975bf1d837d525e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625e6789ceb649e5f18cacd5dbaf4020') in 0.004405 seconds
-  Import took 0.006132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.036206 seconds.
-  path: Assets/SFramework/Framework/Managers/SaveMgr.cs
-  artifactKey: Guid(3fab471c489c244eb975bf1d837d525e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFramework/Framework/Managers/SaveMgr.cs using Guid(3fab471c489c244eb975bf1d837d525e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625e6789ceb649e5f18cacd5dbaf4020') in 0.001275 seconds
-  Import took 0.003620 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001090 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.276 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.16 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 154.3 MB.
-System memory in use after: 154.3 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1861.
-Total: 1.375208 ms (FindLiveObjects: 0.146750 ms CreateObjectMapping: 0.029875 ms MarkObjects: 1.150250 ms  DeleteObjects: 0.046958 ms)
+  Time since last request: 0.002660 seconds.
+  path: Assets/SFramework/Framework/Utils/WeaponSys/BulletSys.cs
+  artifactKey: Guid(929e6f9d371eb460fa943c6a55cb06bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFramework/Framework/Utils/WeaponSys/BulletSys.cs using Guid(929e6f9d371eb460fa943c6a55cb06bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e014cb62bcda7e84d6d03efc0de18c3') in 0.000925 seconds
+  Import took 0.002415 seconds .
 

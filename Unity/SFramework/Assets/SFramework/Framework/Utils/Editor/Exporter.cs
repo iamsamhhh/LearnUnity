@@ -12,7 +12,7 @@ namespace SFramework.Utils
         private static void MenuClicked()
         {
             var generatePackageName = GenerateUnityPackageName();
-
+            
             EditorUtil.ExportPackage("Assets/SFramework", generatePackageName + ".unitypackage");
 
             EditorUtil.OpenInFolder(Path.Combine(Application.dataPath, "../"));
