@@ -8,13 +8,13 @@ interface IBullet{
     GameObject Fire(Transform tran, float damage, float initForce);
 }
 
-public abstract class BulletBase: MonoBehaviour, IBullet
+public abstract class BulletBase: MonoBehaviourSimplify, IBullet
 {
     
     public float damage;
     [SerializeField]
     public string path = "NormalBullet";
-    public Transform tran;
+    public Transform gunTip;
     private GameObject m_prefeb;
     internal GameObject prefeb{
         get{

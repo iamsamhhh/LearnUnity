@@ -15,19 +15,20 @@ public class NormalBullet : BulletBase
     {
         
         GameObject BulletFactoryMethod(){
-            var temp = Instantiate(prefeb);
-            temp.transform.position = gunTip.position;
-            temp.GetComponent<BulletBase>().tran = gunTip;
+            var temp = Instantiate(prefeb, gunTip.position, gunTip.rotation);
+            temp.GetComponent<NormalBullet>().gunTip = gunTip;
             temp.SetActive(false);
             return temp;
         }
 
         void BulletResetMethod(GameObject go){
-            go.transform.position = Vector3.zero;
             go.SetActive(false);
         }
         GameObject go = BulletSys.instance.Spawn(path, BulletFactoryMethod, BulletResetMethod);
+        go.transform.position = gunTip.position;
+        go.transform.rotation = gunTip.rotation;
         go.SetActive(true);
+        // Delay(5f, ()=>{BulletSys.instance.Recycle(path, gameObject);});
         return go;
     }
 
@@ -35,9 +36,9 @@ public class NormalBullet : BulletBase
     
 
     internal override void OnUpdate(){
-        if (tran == null) return;
+        if (gunTip == null) return;
         transform.Translate(transform.forward*Time.fixedDeltaTime * 10);
-        if (Vector3.Distance(transform.position, tran.position) >= 10){
+        if (Vector3.Distance(transform.position, gunTip.position) >= 10){
             BulletSys.instance.Recycle(path, gameObject);
         }
     }
